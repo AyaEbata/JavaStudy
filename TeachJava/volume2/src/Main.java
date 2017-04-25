@@ -27,7 +27,6 @@ public class Main {
      * 数値以外を入力したら落ちます。（そこまでやってない）
      *
      * @return double型の数字
-     * @throws IOException
      */
     private static double getInputValue() {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
